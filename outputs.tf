@@ -42,3 +42,7 @@ output "lambda_role_arn" {
   value = module.esf-lambda-function.lambda_role_arn
 }
 
+output "lambda_role_name" {
+  value = module.esf-lambda-function.lambda_role_name
+}
+
